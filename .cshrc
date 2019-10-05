@@ -7,4 +7,4 @@ source /usr/common/Cshrc
 source ~/.csh_aliases
 
 # apply custom prompt
-set prompt = '[%T](%M) %~: '
+set prompt = '[%T](%M):%~%# '

@@ -11,3 +11,5 @@ set ruler
 set visualbell
 set mouse=a
 set number
+
+

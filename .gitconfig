@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Muchen He
+#	email = i@muchen.ca
+[alias]
+	adog = log --all --decorate --oneline --graph
+[user]
+	name = Muchen He
+	email = i@muchen.ca
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto

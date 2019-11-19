@@ -7,6 +7,9 @@ alias gits='git status -uno'
 alias gitc='git commit -m'
 alias gitl='git log --all --decorate --oneline --graph'
 
+# Serve jekyll site locally
+alias runj='bundler exec jekyll serve'
+
 function runc() {
     printf "Removing old files"
     rm "$1.exe"

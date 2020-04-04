@@ -93,4 +93,8 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+# Add jekyll to path
+export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH
 
+# Add python userbase to path
+export PATH=$HOME/Library/Python/3.7/bin:$PATH

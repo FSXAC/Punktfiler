@@ -35,10 +35,16 @@ ffmpegcopy3() { ffmpeg -i $1 -c:v libx264 $2 }
 # Change directory to work on courses
 alias elec400m='cd ~/Documents/2020\ UBC/ELEC\ 400M/'
 alias apsc450='cd ~/Documents/2020\ UBC/APSC\ 450/'
-alias ubc2021='cd ~/Documents/2021\ UBC/'
+alias ubc='cd ~/Documents/2021\ UBC/'
 
 # Change directory to personal repos
 alias fsxac='cd ~/Programming/FSXAC.github.io'
+
+# SSH
+alias sshece='ssh mhe@ssh.ece.ubc.ca'
+
+# Tree program
+alias tree='python3 ~/Programming/scripts/tree/tree.py'
 
 # Running C program
 function rc() {

@@ -15,6 +15,12 @@ alias gog='glo --graph'
 alias ytd='youtube-dl -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/bet[ext=mp4]/best"'
 alias ytdm4a='youtube-dl -x --audio-format m4a'
 
+# TMUX
+alias tls='tmux ls'
+alias tns='tmux new -s'
+alias tks='tmux kill-session -t'
+alias ta='tmux a -t'
+
 # Suffix aliases to assign prefered app for opening things
 # NOT_YET_IMPLEMENTED
 

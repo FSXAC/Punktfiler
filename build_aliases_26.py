@@ -32,7 +32,7 @@ for idx, aliases_set in enumerate(aliases_list):
     print
     for alias in aliases_set:
         if not alias.startswith('__'):
-            print(' >  {:12}: {}'.format(alias, aliases_set[alias]))
+            print(' >  {0:12}: {1}'.format(alias, aliases_set[alias]))
     print
 
     if raw_input('y/n: ') == 'y':

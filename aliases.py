@@ -55,7 +55,9 @@ elec402_aliases = {
     'setup_local': 'source setup_local.csh',
     'sl': 'source setup_local.csh',
     'modelsim': 'source /CMC/scripts/mentor.modelsim.10.7c.csh && vsim',
-    'modelsim64': 'source /CMC/scripts/mentor.modelsim.10.7c.csh && vsim -64'
+    'modelsim64': 'source /CMC/scripts/mentor.modelsim.10.7c.csh && vsim -64',
+    'new_proj15': 'source /CMC/scripts/kit.ncsu_pdk15.csh',
+    'virtuoso': 'virtuoso --log log.log &'
 }
 
 macos_aliases = {
